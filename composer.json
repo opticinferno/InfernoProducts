@@ -1,0 +1,35 @@
+{
+    "name": "opticinferno/infernoproducts",
+    "description": "Products Module",
+    "type": "silverstripe-vendormodule",
+    "license": "BSD-3-Clause",
+    "keywords": ["inferno"
+    ],
+    "authors": [
+        {
+            "name": "Gordon Skinner",
+            "email": "gordon@opticblaze.co.za"
+        }
+    ],
+    "require": {
+        "silverstripe/framework": "^4.1",
+        "tractorcow/silverstripe-colorpicker": "dev-master",
+        "unclecheese/display-logic": "dev-master"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "OpticInferno\\InfernoConfig\\": "src/"
+            "require": {
+                "silverstripe/framework": "^4.1",
+                "tractorcow/silverstripe-colorpicker": "dev-master",
+                "unclecheese/display-logic": "dev-master"
+            },
+            "minimum-stability": "dev",
+            "autoload": {
+                "psr-4": {
+                    "OpticInferno\\InfernProducts\\": "src/"
+                }
+            }
+        }
+
