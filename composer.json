@@ -1,6 +1,6 @@
 {
     "name": "opticinferno/infernoproducts",
-    "description": "Simple add-on to enable Testimonials",
+    "description": "Adds Parent-Children page layout",
     "type": "silverstripe-vendormodule",
     "license": "BSD-3-Clause",
     "keywords": ["inferno"
